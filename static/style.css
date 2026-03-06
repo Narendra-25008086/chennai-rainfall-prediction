@@ -1,39 +1,65 @@
 body{
-font-family: Arial;
-text-align:center;
-background:#f0f4f8;
+  font-family: 'Poppins', Arial, sans-serif;
+  background: linear-gradient(135deg,#ff9966,#ff5e62);
+  text-align:center;
+  margin:0;
+  padding:0;
 }
 
+/* Heading Style */
 h1{
-color:#1e3a8a;
+  font-size:40px;
+  font-weight:bold;
+  color:#111;
+  background:white;
+  display:inline-block;
+  padding:10px 25px;
+  border-radius:10px;
+  box-shadow:0 5px 15px rgba(0,0,0,0.3);
+  margin-top:40px;
 }
 
+
+/* Form Card */
 form{
-margin-top:30px;
+  background:white;
+  padding:30px;
+  width:320px;
+  margin:40px auto;
+  border-radius:15px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.25);
 }
 
+/* Input Fields */
 input{
-padding:10px;
-margin:10px;
+  width:85%;
+  padding:12px;
+  margin:10px 0;
+  border-radius:8px;
+  border:1px solid #ccc;
+  font-size:16px;
 }
 
+/* Placeholder Style */
+input::placeholder{
+  color:#888;
+  font-style:italic;
+}
+
+/* Button Style */
 button{
-padding:10px 20px;
-background:#2563eb;
-color:white;
-border:none;
-}
-body{
-font-family: Arial;
-background: linear-gradient(to right,#74ebd5,#ACB6E5);
-text-align:center;
+  padding:12px 25px;
+  background:#ff4500;
+  color:white;
+  border:none;
+  border-radius:8px;
+  font-size:16px;
+  font-weight:bold;
+  cursor:pointer;
+  transition:0.3s;
 }
 
-form{
-background:white;
-padding:20px;
-width:300px;
-margin:auto;
-border-radius:10px;
-box-shadow:0 0 10px gray;
+button:hover{
+  background:#e63900;
+  transform:scale(1.05);
 }
